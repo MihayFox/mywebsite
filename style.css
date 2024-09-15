@@ -1,0 +1,50 @@
+#developer-image {
+    border-radius: 50%;
+}
+
+.skills-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.skills-container > div {
+    text-align: center;
+    width: 100%;
+}
+
+ul {
+    list-style-type: none;
+}
+
+.feature-icon {
+    border-radius: 0.75rem;
+}
+
+.gradient-background {
+    background: linear-gradient(300deg, #f9f9f9, #1f8bd8, #0a14d2);
+    background-size: 180% 180%;
+    animation: gradient-animation 18s ease infinite;
+  }
+
+#icon-gradient {
+    background: linear-gradient(300deg, #00bfff, #3e11b9, #2c045a);
+    background-size: 180% 180%;
+    animation: gradient-animation 18s ease infinite;
+}
+
+.introduction {
+    background-color: rgb(13, 82, 232);
+}
+
+.footer {
+    background-color: rgb(13, 82, 232);
+}
+
+.carousel-control-next-icon {
+    background-color: #0c84e6;
+}
+
+.carousel-control-prev-icon {
+    background-color: #0c84e6;
+}
